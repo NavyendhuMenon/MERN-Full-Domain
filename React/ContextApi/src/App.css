@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-container {
+
+  text-align: center;
+  min-height: 100vh;
+  /* min-width: 1280vh; */
+  padding: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light mode styles */
+.light {
+  background-color: white;
+  color: black;
+}
+
+/* Dark mode styles */
+.dark {
+  background-color: black;
+  color: white;
+}
+
+/* Button styles */
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+
