@@ -14,4 +14,3 @@ const anonFunc = function() {
     console.log("this is anonymous");
 };
 anonFunc();
-set
